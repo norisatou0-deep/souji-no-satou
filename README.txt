@@ -1,2 +1,1 @@
-掃除のさとう Version4.1
-ZIPを解凍し、index.html / style.css / script.js / assets をGitHubリポジトリ直下へアップロードしてください。
+掃除のさとう Version5 upload files. Upload index.html, style.css, script.js, and assets/ to repository root.

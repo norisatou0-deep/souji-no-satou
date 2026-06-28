@@ -1,0 +1,23 @@
+<svg width="1400" height="980" viewBox="0 0 1400 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="wall" x1="0" y1="0" x2="1400" y2="980" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#F2F6F5"/>
+  </linearGradient>
+  <linearGradient id="floor" x1="0" y1="620" x2="1400" y2="980" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#EEE8DB"/><stop offset="1" stop-color="#DCD2C3"/>
+  </linearGradient>
+</defs>
+<rect width="1400" height="980" fill="url(#wall)"/>
+<rect y="652" width="1400" height="328" fill="url(#floor)"/>
+<rect x="108" y="100" width="1184" height="770" rx="44" fill="#FFFFFF" stroke="#E6ECEC" stroke-width="2"/>
+<rect x="174" y="154" width="1052" height="450" rx="32" fill="#F9FBFB" stroke="#E7EEEE"/>
+<circle cx="1118" cy="244" r="92" fill="#E7E1D2" fill-opacity=".46"/>
+<rect x="260" y="238" width="370" height="248" rx="22" fill="#FFFFFF" stroke="#DDE8E8" stroke-width="3"/>
+<rect x="690" y="238" width="250" height="248" rx="22" fill="#FFFFFF" stroke="#DDE8E8" stroke-width="3"/>
+<path d="M294 543H1106" stroke="#D9C9B2" stroke-width="8" stroke-linecap="round"/>
+<path d="M380 318H510M380 370H560M380 422H500" stroke="#C8D8DA" stroke-width="14" stroke-linecap="round"/>
+<path d="M744 310H885M744 370H860M744 430H898" stroke="#C8D8DA" stroke-width="14" stroke-linecap="round"/>
+<text x="232" y="746" fill="#17324D" font-family="-apple-system,BlinkMacSystemFont,'Noto Sans JP',sans-serif" font-weight="650" font-size="58">キッチンクリーニング</text>
+<text x="232" y="810" fill="#5F7180" font-family="-apple-system,BlinkMacSystemFont,'Noto Sans JP',sans-serif" font-size="28">シンク・コンロまわりを丁寧に</text>
+<text x="1030" y="742" text-anchor="end" fill="#B79B5E" font-family="-apple-system,BlinkMacSystemFont,'Noto Sans JP',sans-serif" font-size="22" letter-spacing=".12em">KITCHEN</text>
+</svg>
