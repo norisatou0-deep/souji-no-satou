@@ -1,8 +1,8 @@
 <svg width="260" height="72" viewBox="0 0 260 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="掃除のさとう">
-  <defs><linearGradient id="stroke" x1="20" y1="12" x2="57" y2="60"><stop stop-color="#7ABFD7"/><stop offset="1" stop-color="#17324D"/></linearGradient></defs>
-  <circle cx="38" cy="36" r="28" fill="#F7FBFD" stroke="#DDEBF2"/>
-  <path d="M48 24.5C44.8 19.8 34.8 18.9 29.4 23.6C22.2 30 28.1 36.3 36 37.4C45.7 38.8 49.6 45.1 43.4 51.5C37.2 57.8 25.3 55.3 22.5 46.8" stroke="url(#stroke)" stroke-width="3.35" stroke-linecap="round"/>
-  <path d="M53.5 18.5C53.5 18.5 58 23 58 27.2C58 30.3 55.8 32.4 53.5 32.4C51.2 32.4 49 30.3 49 27.2C49 23 53.5 18.5 53.5 18.5Z" fill="#D9B55A" fill-opacity=".72"/>
-  <text x="82" y="33" fill="#17324D" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans JP', sans-serif" font-size="21" font-weight="650" letter-spacing=".04em">掃除のさとう</text>
-  <text x="82" y="53" fill="#687987" font-family="-apple-system, BlinkMacSystemFont, 'Noto Sans JP', sans-serif" font-size="11" letter-spacing=".13em">ハウスクリーニング専門</text>
+<defs><linearGradient id="g" x1="12" y1="10" x2="62" y2="62" gradientUnits="userSpaceOnUse"><stop stop-color="#8DC8D6"/><stop offset="1" stop-color="#17324D"/></linearGradient></defs>
+<circle cx="36" cy="36" r="29" fill="#F7FBFC" stroke="#DCEAF0" stroke-width="2"/>
+<path d="M48 23C43.8 18.7 33.9 18.2 28.6 22.8C21.7 28.8 27.7 35.2 36.2 36.4C45.6 37.7 49.5 44.4 43.2 50.8C36.7 57.3 25.1 54.3 22.7 46" stroke="url(#g)" stroke-width="3.4" stroke-linecap="round"/>
+<path d="M54 19C54 19 58.3 23.3 58.3 27.1C58.3 30.1 56.4 32.1 54 32.1C51.6 32.1 49.7 30.1 49.7 27.1C49.7 23.3 54 19 54 19Z" fill="#D9B55A" fill-opacity=".75"/>
+<text x="82" y="33" fill="#17324D" font-family="-apple-system,BlinkMacSystemFont,'Noto Sans JP',sans-serif" font-size="21" font-weight="700" letter-spacing=".04em">掃除のさとう</text>
+<text x="82" y="53" fill="#647889" font-family="-apple-system,BlinkMacSystemFont,'Noto Sans JP',sans-serif" font-size="11" letter-spacing=".12em">ハウスクリーニング専門</text>
 </svg>
