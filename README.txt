@@ -1,2 +1,9 @@
-掃除のさとう トップページ Ver.3
-index.htmlをブラウザで開いて確認してください。
+掃除のさとう Version3 Premium
+
+アップロードするもの:
+- index.html
+- style.css
+- script.js
+- assets フォルダごと
+
+GitHubでは ZIP ではなく、中身をアップロードしてください。
