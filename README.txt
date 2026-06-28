@@ -1,1 +1,1 @@
-掃除のさとう Version5.1 upload files. Upload index.html, style.css, script.js, and assets/ to repository root.
+掃除のさとう Version5.2 完成版。index.html / style.css / script.js / assets をリポジトリ直下にアップロードしてください。
