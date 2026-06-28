@@ -1,8 +1,7 @@
-<svg width="260" height="72" viewBox="0 0 260 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="掃除のさとう">
-<defs><linearGradient id="g" x1="12" y1="10" x2="62" y2="62" gradientUnits="userSpaceOnUse"><stop stop-color="#8DC8D6"/><stop offset="1" stop-color="#17324D"/></linearGradient></defs>
-<circle cx="36" cy="36" r="29" fill="#F7FBFC" stroke="#DCEAF0" stroke-width="2"/>
-<path d="M48 23C43.8 18.7 33.9 18.2 28.6 22.8C21.7 28.8 27.7 35.2 36.2 36.4C45.6 37.7 49.5 44.4 43.2 50.8C36.7 57.3 25.1 54.3 22.7 46" stroke="url(#g)" stroke-width="3.4" stroke-linecap="round"/>
-<path d="M54 19C54 19 58.3 23.3 58.3 27.1C58.3 30.1 56.4 32.1 54 32.1C51.6 32.1 49.7 30.1 49.7 27.1C49.7 23.3 54 19 54 19Z" fill="#D9B55A" fill-opacity=".75"/>
-<text x="82" y="33" fill="#17324D" font-family="-apple-system,BlinkMacSystemFont,'Noto Sans JP',sans-serif" font-size="21" font-weight="700" letter-spacing=".04em">掃除のさとう</text>
-<text x="82" y="53" fill="#647889" font-family="-apple-system,BlinkMacSystemFont,'Noto Sans JP',sans-serif" font-size="11" letter-spacing=".12em">ハウスクリーニング専門</text>
+<svg width="300" height="84" viewBox="0 0 300 84" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="掃除のさとう">
+  <circle cx="38" cy="42" r="30" fill="#F7FBFD" stroke="#E4EEF2" stroke-width="1.2"/>
+  <path d="M50 26.5C46.2 21.2 34.8 20.7 28.8 26.3C21.9 32.7 27.4 39.1 36.2 40.4C45.7 41.8 50.2 47.5 44.1 54.1C37.8 60.9 25.4 57.8 22.6 48.4" stroke="#78BED7" stroke-width="3.1" stroke-linecap="round"/>
+  <path d="M56.8 20.5C56.8 20.5 61.2 25.1 61.2 29.1C61.2 32.1 59.2 34.1 56.8 34.1C54.5 34.1 52.4 32.1 52.4 29.1C52.4 25.1 56.8 20.5 56.8 20.5Z" fill="#D6B96A" fill-opacity=".72"/>
+  <text x="88" y="38" fill="#17324D" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="22" font-weight="650" letter-spacing=".04em">掃除のさとう</text>
+  <text x="88" y="58" fill="#71808A" font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="11" letter-spacing=".16em">HOUSE CLEANING</text>
 </svg>
