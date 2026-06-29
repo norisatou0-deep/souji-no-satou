@@ -7,6 +7,11 @@ if(btn&&nav){
     btn.setAttribute('aria-label',open?'メニューを閉じる':'メニューを開く');
   });
   nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',close));
+  document.addEventListener('click',e=>{
+    if(!nav.classList.contains('open'))return;
+    if(nav.contains(e.target)||btn.contains(e.target))return;
+    close();
+  });
   document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
 }
 
