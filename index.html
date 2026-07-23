@@ -3,18 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>掃除のさとう｜東大阪市のハウスクリーニング専門</title>
-  <meta name="description" content="東大阪市を拠点に大阪府内を中心に対応するハウスクリーニング専門店。浴室・キッチン・レンジフード・トイレ・空室清掃。公式サイト限定価格、クレジットカード決済対応。">
+  <title>掃除のさとう｜東大阪市のハウスクリーニング・家事代行</title>
+  <meta name="description" content="東大阪市を拠点に大阪府内を中心に対応。水回り・レンジフード・空室清掃などのハウスクリーニングと、掃除のプロによる家事代行を承ります。公式サイトから初回相談・お見積り受付。">
   <meta name="theme-color" content="#17324D">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:site_name" content="掃除のさとう">
-  <meta property="og:title" content="掃除のさとう｜東大阪市のハウスクリーニング専門">
-  <meta property="og:description" content="東大阪市を拠点に、大阪府内を中心に対応。水回り・レンジフード・空室清掃まで丁寧に作業します。">
-  <meta property="og:image" content="assets/hero-cup.jpeg">
+  <meta property="og:title" content="掃除のさとう｜東大阪市のハウスクリーニング・家事代行">
+  <meta property="og:description" content="東大阪市を拠点に、大阪府内を中心に対応。単発の徹底清掃と、きれいな状態を保つ家事代行を承ります。">
+  <meta property="og:url" content="https://norisatou0-deep.github.io/souji-no-sato/">
+  <meta property="og:image" content="https://norisatou0-deep.github.io/souji-no-sato/assets/hero-cup.jpeg">
   <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://norisatou0-deep.github.io/souji-no-sato/">
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20260723-wrap">
   <script>
     document.documentElement.classList.remove('no-js');
     document.documentElement.classList.add('js');
@@ -24,12 +26,17 @@
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "掃除のさとう",
-      "description": "東大阪市を拠点に大阪府内を中心に対応するハウスクリーニング専門店。",
-      "image": "assets/hero-cup.jpeg",
+      "description": "東大阪市を拠点に大阪府内を中心に対応するハウスクリーニング・家事代行サービス。",
+      "url": "https://norisatou0-deep.github.io/souji-no-sato/",
+      "image": "https://norisatou0-deep.github.io/souji-no-sato/assets/hero-cup.jpeg",
       "telephone": "+81-80-9742-4373",
       "email": "norisatou0@gmail.com",
       "areaServed": ["東大阪市", "大阪府"],
-      "openingHours": "Mo-Su 09:00-18:00",
+      "makesOffer": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "ハウスクリーニング"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "家事代行"}}
+      ],
+      "openingHours": "Mo-Su 08:30-18:00",
       "priceRange": "¥¥"
     }
   </script>
@@ -40,11 +47,12 @@
   <a class="brand" href="#top"><img src="assets/logo.svg" alt="掃除のさとう"></a>
   <button class="menu-button" type="button" aria-label="メニューを開く" aria-controls="site-nav" aria-expanded="false"><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
   <nav class="nav" id="site-nav" aria-label="サイト内メニュー">
-    <a href="#service">サービス</a>
+    <a href="housekeeping.html">家事代行</a>
+    <a href="cleaning.html">ハウスクリーニング</a>
     <a href="#voice">お客様の声</a>
     <a href="#price">料金</a>
     <a href="#promise">お約束</a>
-    <a class="nav-cta" href="#contact">無料見積り</a>
+    <a class="nav-cta" href="https://forms.gle/PF4ynjadxf1Uwvu38" target="_blank" rel="noopener noreferrer">公式サイトから相談</a>
   </nav>
 </header>
 
@@ -55,28 +63,61 @@
   </div>
   <div class="hero-copy reveal">
     <p class="eyebrow">東大阪市を拠点に、大阪府内を中心に対応</p>
-    <h1>暮らしを、<br>もっと気持ちよく。</h1>
-    <p class="lead">水回り・レンジフード・空室清掃まで。<br>安心してお任せいただけるよう、一件一件丁寧に作業します。</p>
+    <h1>単発の徹底清掃も、<br>日常のお掃除サポートも。</h1>
+    <p class="lead">掃除のさとうは、水回り・レンジフード・空室清掃などのハウスクリーニングと、きれいな状態を保つ家事代行を承ります。</p>
     <div class="actions">
-      <a class="button primary" href="mailto:norisatou0@gmail.com?subject=無料見積りの相談">無料見積りを相談する</a>
+      <a class="button primary" href="housekeeping.html">家事代行を見る</a>
+      <a class="button secondary" href="cleaning.html">単発清掃を見る</a>
       <a class="button secondary" href="tel:08097424373">電話する</a>
     </div>
-    <p class="small-note">営業時間 9:00〜18:00｜時間外は追加料金にてご相談可能です</p>
+    <p class="small-note">営業時間 8:30〜18:00｜時間外は追加料金にてご相談可能です</p>
   </div>
 </section>
 
 <section class="trust-strip reveal">
-  <div><strong>高評価レビュー多数</strong><span>丁寧さ・人柄に評価</span></div>
-  <div><strong>お見積り無料</strong><span>まずは相談だけでも</span></div>
-  <div><strong>現地でカード決済対応</strong><span>現金払いも可能</span></div>
-  <div><strong>空室清掃も対応</strong><span>法人・オーナー様も相談可</span></div>
+  <div><strong>家事代行</strong><span>月1回から相談可</span></div>
+  <div><strong>ハウスクリーニング</strong><span>水回り・空室清掃に対応</span></div>
+  <div><strong>公式サイト受付</strong><span>直接相談・お見積り</span></div>
+  <div><strong>地域密着</strong><span>東大阪市を拠点に対応</span></div>
+</section>
+
+<section class="section service-choice" id="housekeeping">
+  <div class="section-heading reveal">
+    <p class="eyebrow">HOUSEKEEPING</p>
+    <h2>掃除のプロによる、<span class="mobile-line nowrap">家事代行</span></h2>
+    <p>忙しい毎日の掃除を、ただ代わりにするだけでなく、家の状態を見ながら、きれいが続くように整えるお掃除サポートです。</p>
+  </div>
+  <div class="choice-grid">
+    <article class="choice-card featured reveal">
+      <span class="choice-label">今後の主力サービス</span>
+      <h3>家事代行</h3>
+      <p>月1回から、床・水回り・キッチン・片付け補助などを時間内で優先順位をつけて整えます。</p>
+      <ul>
+        <li>共働き・子育て中のご家庭</li>
+        <li>休日を掃除で終わらせたくない方</li>
+        <li>一度きれいにしても維持が難しい方</li>
+      </ul>
+      <a class="button primary" href="housekeeping.html">詳しく見る</a>
+    </article>
+    <article class="choice-card reveal">
+      <span class="choice-label muted">単発の専門清掃</span>
+      <h3>ハウスクリーニング</h3>
+      <p>浴室・キッチン・レンジフード・トイレ・空室清掃など、たまった汚れを専門清掃でリセットします。</p>
+      <ul>
+        <li>水回りを一度しっかりきれいにしたい</li>
+        <li>退去後・入居前の空室を整えたい</li>
+        <li>専門作業が必要な汚れを落としたい</li>
+      </ul>
+      <a class="button secondary" href="cleaning.html">詳しく見る</a>
+    </article>
+  </div>
 </section>
 
 <section class="section service" id="service">
   <div class="section-heading reveal">
     <p class="eyebrow">SERVICE</p>
-    <h2>対応サービス</h2>
-    <p>水回りを中心に、毎日の暮らしが気持ちよくなる清掃を行います。</p>
+    <h2>ハウスクリーニング</h2>
+    <p>たまった汚れを一度リセットしたい方へ。水回りを中心に、毎日の暮らしが気持ちよくなる清掃を行います。</p>
   </div>
   <div class="service-grid">
     <article class="service-card reveal"><img src="assets/service-kitchen-clean-v3.jpg" alt="キッチンクリーニング" width="1200" height="800" loading="lazy"><div><h3>キッチン</h3><p>シンク・コンロまわりを丁寧に。</p></div></article>
@@ -96,8 +137,8 @@
   <div class="reason-layout">
     <div class="reason-grid">
       <article class="reveal"><span>01</span><h3>丁寧な作業</h3><p>見える汚れだけでなく、細かな部分まで確認しながら進めます。</p></article>
-      <article class="reveal"><span>02</span><h3>安心できる対応</h3><p>作業内容や料金を事前に分かりやすくご説明します。</p></article>
-      <article class="reveal"><span>03</span><h3>時間内で最大限</h3><p>時間配分と気配りを大切に、できる範囲を丁寧に整えます。</p></article>
+      <article class="reveal"><span>02</span><h3>定期利用も相談可</h3><p>単発清掃の後、きれいな状態を保つ家事代行までご相談いただけます。</p></article>
+      <article class="reveal"><span>03</span><h3>時間内で最大限</h3><p>家事代行でも、時間配分と気配りを大切に、優先順位をつけて整えます。</p></article>
       <article class="reveal"><span>04</span><h3>地域密着</h3><p>東大阪市を拠点に、大阪府内を中心にお伺いしています。</p></article>
     </div>
     <aside class="manager reveal">
@@ -115,8 +156,8 @@
   <div class="proof-inner reveal">
     <div>
       <p class="eyebrow">WORK STYLE</p>
-      <h2>実際の作業風景も、<br>少しずつ掲載していきます。</h2>
-      <p>写真は作業の雰囲気や人柄をお伝えするためのものです。ビフォーアフターは、写真が揃い次第追加していきます。</p>
+      <h2>実際の作業風景やお客様の声を、<br>サイトに蓄積していきます。</h2>
+      <p>サイトを営業資産として育てるため、作業事例・お客様の声・よくある質問を少しずつ追加していきます。</p>
     </div>
     <div class="proof-photos">
       <img src="assets/work-hood.jpeg" alt="レンジフードの作業風景" width="1333" height="1000" loading="lazy">
@@ -142,87 +183,22 @@
 <section class="section price" id="price">
   <div class="section-heading reveal">
     <p class="eyebrow">PRICE</p>
-    <h2>料金のご案内</h2>
-    <p><strong>公式サイト限定価格。</strong> 仲介サイトを介さないため、適正価格でご案内しております。</p>
+    <h2>料金はサービス別にご確認ください</h2>
+    <p><strong>公式サイト受付。</strong> 家事代行とハウスクリーニングは、内容・回数・料金の考え方が異なるため、専用ページに分けてご案内しています。</p>
   </div>
-
-  <div class="price-columns">
-    <div class="set-menu reveal">
-      <h3>セットメニュー</h3>
-      <p class="sub">人気の水回りセットを分かりやすくまとめました。</p>
-
-      <div class="set-row popular">
-        <div class="rank">1</div>
-        <div class="set-main">
-          <h4>水回りクリーニング / 4点セット</h4>
-          <p>お風呂＋換気扇＋トイレ＋キッチン</p>
-          <small>内容：浴室・換気扇（レンジフード）・トイレ・キッチン</small>
-        </div>
-        <strong>39,000円<span>税込</span></strong>
-      </div>
-
-      <div class="set-row">
-        <div class="rank">2</div>
-        <div class="set-main">
-          <h4>水回りクリーニング / 3点セット</h4>
-          <p>お風呂＋換気扇＋キッチン</p>
-          <small>内容：浴室・換気扇（レンジフード）・キッチン</small>
-        </div>
-        <strong>32,000円<span>税込</span></strong>
-      </div>
-
-      <div class="set-row">
-        <div class="rank">3</div>
-        <div class="set-main">
-          <h4>水回りクリーニング / 2点セット</h4>
-          <p>お風呂＋換気扇</p>
-          <small>内容：浴室・換気扇（レンジフード）</small>
-        </div>
-        <strong>25,000円<span>税込</span></strong>
-      </div>
-
-      <div class="set-row">
-        <div class="rank">4</div>
-        <div class="set-main">
-          <h4>水回りクリーニング / 2点セット</h4>
-          <p>キッチン＋換気扇</p>
-          <small>内容：キッチン・換気扇（レンジフード）</small>
-        </div>
-        <strong>24,000円<span>税込</span></strong>
-      </div>
-      <p class="caution">※汚れの程度や設備状況により、作業時間が前後する場合があります。</p>
-    </div>
-
-    <aside class="side-price reveal">
-      <div class="single-menu">
-        <h3>単品メニュー</h3>
-        <dl>
-          <div><dt>浴室</dt><dd>17,000円</dd></div>
-          <div><dt>キッチン</dt><dd>17,000円</dd></div>
-          <div><dt>レンジフード</dt><dd>17,000円</dd></div>
-          <div><dt>トイレ</dt><dd>9,000円</dd></div>
-          <div><dt>洗面台</dt><dd>9,000円</dd></div>
-        </dl>
-        <small>※すべて税込価格です。</small>
-      </div>
-      <div class="payment">
-        <h3>お支払い方法</h3>
-        <p><strong>現金・現地でのクレジットカード決済に対応しております。</strong></p>
-        <p class="card-brands">VISA / Mastercard / JCB / American Express / Diners Club</p>
-        <p>作業後、現地でお支払いいただけます。</p>
-      </div>
-    </aside>
-  </div>
-
-  <div class="vacant reveal">
-    <h3>空室クリーニング</h3>
-    <div>
-      <span>1R・1K <strong>22,000円〜</strong></span>
-      <span>1DK・1LDK <strong>33,000円〜</strong></span>
-      <span>2DK・2LDK <strong>44,000円〜</strong></span>
-      <span>3DK・3LDK <strong>66,000円〜</strong></span>
-    </div>
-    <p>4LDK以上、不動産会社様・オーナー様からのご依頼もお見積りいたします。</p>
+  <div class="choice-grid">
+    <article class="choice-card featured reveal">
+      <span class="choice-label">定期・スポット</span>
+      <h3>家事代行の料金</h3>
+      <p>初回お試し、月1回からの定期利用、スポット利用の料金と受付日時を掲載しています。</p>
+      <a class="button primary" href="housekeeping.html#price">家事代行の料金を見る</a>
+    </article>
+    <article class="choice-card reveal">
+      <span class="choice-label muted">単発清掃</span>
+      <h3>ハウスクリーニングの料金</h3>
+      <p>水回りセット、単品メニュー、空室クリーニングの料金を掲載しています。</p>
+      <a class="button secondary" href="cleaning.html#price">清掃料金を見る</a>
+    </article>
   </div>
 </section>
 
@@ -237,6 +213,9 @@
     <details><summary>駐車場がない場合はどうなりますか？</summary><p>近隣のコインパーキングを利用する場合があります。駐車場代が必要な場合は事前にご相談いたします。</p></details>
     <details><summary>支払い方法は何がありますか？</summary><p>現金・現地でのクレジットカード決済に対応しています。作業後、現地でお支払いいただけます。</p></details>
     <details><summary>対応エリアはどこですか？</summary><p>東大阪市を拠点に、大阪府内を中心にお伺いしています。</p></details>
+    <details><summary>家事代行は依頼できますか？</summary><p>はい。定期利用は月1回から、スポット利用もご相談いただけます。公式サイトから直接お問い合わせください。</p></details>
+    <details><summary>家事代行とハウスクリーニングの違いは何ですか？</summary><p>家事代行は日常清掃を継続してきれいな状態を保つサービスです。ハウスクリーニングは、専門道具や洗剤でたまった汚れを落とす単発の専門清掃です。</p></details>
+    <details><summary>公式サイトから直接依頼できますか？</summary><p>はい。掃除のさとう公式サービスとして、家事代行のご相談を受け付けています。</p></details>
   </div>
 </section>
 
@@ -280,20 +259,20 @@
       <div><dt>代表</dt><dd>佐藤</dd></div>
       <div><dt>拠点</dt><dd>大阪府東大阪市</dd></div>
       <div><dt>対応エリア</dt><dd>東大阪市を中心に、大阪府内を中心に対応</dd></div>
-      <div><dt>営業時間</dt><dd>9:00〜18:00（時間外は追加料金にてご相談可能）</dd></div>
-      <div><dt>対応サービス</dt><dd>浴室・キッチン・レンジフード・トイレ・洗面台・空室清掃</dd></div>
+      <div><dt>営業時間</dt><dd>8:30〜18:00（時間外は追加料金にてご相談可能）</dd></div>
+      <div><dt>対応サービス</dt><dd>家事代行・浴室・キッチン・レンジフード・トイレ・洗面台・空室清掃</dd></div>
       <div><dt>お支払い</dt><dd>現金・現地でのクレジットカード決済</dd></div>
-      <div><dt>お問い合わせ</dt><dd><a href="tel:08097424373">080-9742-4373</a> / <a href="mailto:norisatou0@gmail.com?subject=無料見積りの相談">norisatou0@gmail.com</a></dd></div>
+      <div><dt>お問い合わせ</dt><dd><a href="tel:08097424373">080-9742-4373</a> / <a href="https://forms.gle/PF4ynjadxf1Uwvu38" target="_blank" rel="noopener noreferrer">フォームで相談する</a></dd></div>
     </dl>
   </div>
 </section>
 
 <section class="section contact" id="contact">
   <div class="contact-card reveal">
-    <h2>まずはお気軽にご相談ください。</h2>
-    <p>「こんな汚れでも頼めるかな？」<br>ご相談だけでもお気軽にどうぞ。</p>
+    <h2>家事代行も、単発清掃も。まずはご相談ください。</h2>
+    <p>「毎週の掃除を頼みたい」「一度しっかりきれいにしたい」など、ご家庭の状況に合わせてご相談いただけます。</p>
     <div class="actions center">
-      <a class="button primary light" href="mailto:norisatou0@gmail.com?subject=無料見積りの相談">メールで無料見積り</a>
+      <a class="button primary light" href="https://forms.gle/PF4ynjadxf1Uwvu38" target="_blank" rel="noopener noreferrer">公式サイトから相談する</a>
       <a class="button secondary dark" href="tel:08097424373">080-9742-4373</a>
     </div>
     <p class="footer-message">一件一件、自分の家だったらどう掃除するか。その気持ちを大切にしています。</p>
@@ -303,14 +282,14 @@
 
 <footer>
   <img src="assets/logo.svg" alt="掃除のさとう">
-  <p>掃除のさとう｜ハウスクリーニング専門</p>
-  <p>今日より、少し気持ちのいい暮らしへ。</p>
+  <p>掃除のさとう｜ハウスクリーニング・家事代行</p>
+  <p>単発の徹底清掃も、定期のお掃除サポートも。</p>
   <small>© 掃除のさとう</small>
 </footer>
 
 <div class="fixed-cta">
   <a href="tel:08097424373" aria-label="掃除のさとうへ電話する">電話</a>
-  <a href="mailto:norisatou0@gmail.com?subject=無料見積りの相談" aria-label="掃除のさとうへ無料見積りを相談する">無料見積り</a>
+  <a href="https://forms.gle/PF4ynjadxf1Uwvu38" target="_blank" rel="noopener noreferrer" aria-label="掃除のさとうへ公式サイトから相談する">相談する</a>
 </div>
 <script src="script.js"></script>
 </body>
